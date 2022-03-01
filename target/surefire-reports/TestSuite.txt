@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 49.294 s <<< FAILURE! - in TestSuite
+com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=iso-8859-1]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType(TC001_Get_All_Employees.java:90)
+
+com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [500]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode(TC001_Get_All_Employees.java:56)
+
+com.employeeapi.testCases.TC001_Get_All_Employees.checkcontentEncoding  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkcontentEncoding(TC001_Get_All_Employees.java:109)
+
+com.employeeapi.testCases.TC001_Get_All_Employees.checkstatusLine  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 500 Internal Server Error]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkstatusLine(TC001_Get_All_Employees.java:80)
+
+com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkResponseTime  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkResponseTime(TC002_Get_Single_Employee_Record.java:58)
+
+com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentType  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=iso-8859-1]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:85)
+
+com.employeeapi.testCases.TC003_Post_Employee_Record.checkResposeBody  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkResposeBody(TC003_Post_Employee_Record.java:64)
+
+com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:72)
+
+com.employeeapi.testCases.TC003_Post_Employee_Record.checkstatusLine  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkstatusLine(TC003_Post_Employee_Record.java:78)
+
+com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentType  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=iso-8859-1]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:85)
+
+com.employeeapi.testCases.TC004_Put_Employee_Record.checkResposeBody  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkResposeBody(TC004_Put_Employee_Record.java:64)
+
+com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:72)
+
+com.employeeapi.testCases.TC004_Put_Employee_Record.checkstatusLine  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkstatusLine(TC004_Put_Employee_Record.java:78)
+
+com.employeeapi.testCases.TC005_Delete_Employee_Record.checkResponseBody  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkResponseBody(TC005_Delete_Employee_Record.java:62)
+
+com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusCode  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusCode(TC005_Delete_Employee_Record.java:69)
+
+com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusLine  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusLine(TC005_Delete_Employee_Record.java:75)
+
+com.employeeapi.testCases.TC005_Delete_Employee_Record.checkcontentType  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=iso-8859-1]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkcontentType(TC005_Delete_Employee_Record.java:81)
+

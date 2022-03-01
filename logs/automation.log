@@ -1,0 +1,389 @@
+13:26:36.715 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>57890
+13:26:36.730 [main] WARN  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is greater than 2000
+13:26:36.730 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==><!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>500 Internal Server Error</title>
+</head><body>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error or
+misconfiguration and was unable to complete
+your request.</p>
+<p>Please contact the server administrator at 
+ webmaster@dummy.restapiexample.com to inform them of the time this error occurred,
+ and the actions you performed just before this error.</p>
+<p>More information about this error may be available
+in the server error log.</p>
+<p>Additionally, a 500 Internal Server Error
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>500
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>null
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 500 Internal Server Error
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+13:26:36.762 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+13:26:48.252 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+13:26:48.252 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+13:26:54.278 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+13:26:54.278 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+13:26:54.278 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+13:27:06.506 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+13:27:06.506 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+13:27:16.259 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Finished TC005_Delete_Employee_Record **********
+13:27:59.180 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+13:28:10.238 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+13:28:10.240 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>588
+13:28:10.265 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+13:28:10.265 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>text/html; charset=UTF-8
+13:28:10.272 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+13:28:10.274 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+13:28:10.285 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>4501
+13:28:10.286 [main] WARN  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is greater than 2000
+13:28:10.288 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+13:28:10.318 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+13:28:10.319 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+13:28:10.320 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>429
+13:28:10.321 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+13:28:10.322 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+13:28:10.323 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+13:28:10.324 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+13:28:10.329 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+13:28:10.329 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 429 Too Many Requests
+13:28:10.336 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+13:28:10.341 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+13:28:18.503 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+13:28:18.505 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+13:28:24.233 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+13:28:24.242 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+13:28:24.243 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+13:28:32.371 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+13:28:32.376 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+13:29:10.846 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+13:29:18.220 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+13:29:18.223 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>678
+13:29:18.246 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+13:29:18.247 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>text/html; charset=iso-8859-1
+13:29:18.253 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+13:29:18.254 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+13:29:18.256 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1390
+13:29:18.258 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+13:29:18.278 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==><!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>500 Internal Server Error</title>
+</head><body>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error or
+misconfiguration and was unable to complete
+your request.</p>
+<p>Please contact the server administrator at 
+ webmaster@dummy.restapiexample.com to inform them of the time this error occurred,
+ and the actions you performed just before this error.</p>
+<p>More information about this error may be available
+in the server error log.</p>
+<p>Additionally, a 500 Internal Server Error
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+13:29:18.283 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+13:29:18.284 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>500
+13:29:18.286 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+13:29:18.286 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>null
+13:29:18.288 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+13:29:18.288 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+13:29:18.290 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+13:29:18.290 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 500 Internal Server Error
+13:29:18.295 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+13:29:18.299 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+13:29:26.202 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+13:29:26.204 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+13:29:35.174 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+13:29:35.186 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+13:29:35.189 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+13:29:42.378 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+13:29:42.380 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+13:29:53.191 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Finished TC005_Delete_Employee_Record **********
+13:30:12.480 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+13:30:23.285 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+13:30:23.287 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+13:30:23.302 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+13:30:23.303 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+13:30:23.304 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+13:30:23.305 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+13:30:23.308 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>4862
+13:30:23.308 [main] WARN  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is greater than 2000
+13:30:23.309 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+13:30:23.323 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+13:30:23.324 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+13:30:23.324 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+13:30:23.326 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+13:30:23.327 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+13:30:23.327 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+13:30:23.328 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+13:30:23.330 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+13:30:23.330 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+13:30:23.332 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+13:30:23.335 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+13:30:29.238 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+13:30:29.239 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+13:30:39.421 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+13:30:39.433 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+13:30:39.435 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+13:30:45.367 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+13:30:45.370 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+13:31:03.870 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+13:31:10.829 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+13:31:10.830 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>678
+13:31:10.856 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+13:31:10.856 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>text/html; charset=iso-8859-1
+13:31:10.861 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+13:31:10.863 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+13:31:10.863 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>937
+13:31:10.864 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+13:31:10.881 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==><!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>500 Internal Server Error</title>
+</head><body>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error or
+misconfiguration and was unable to complete
+your request.</p>
+<p>Please contact the server administrator at 
+ webmaster@dummy.restapiexample.com to inform them of the time this error occurred,
+ and the actions you performed just before this error.</p>
+<p>More information about this error may be available
+in the server error log.</p>
+<p>Additionally, a 500 Internal Server Error
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+13:31:10.882 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+13:31:10.883 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>500
+13:31:10.885 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+13:31:10.886 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>null
+13:31:10.888 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+13:31:10.888 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+13:31:10.889 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+13:31:10.890 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 500 Internal Server Error
+13:31:10.893 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+13:31:10.895 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+13:31:22.346 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+13:31:22.347 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+13:31:33.430 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+13:31:33.435 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+13:31:33.437 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+13:31:38.995 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+13:31:39.010 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+13:31:50.321 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Finished TC005_Delete_Employee_Record **********

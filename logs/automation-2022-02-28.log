@@ -1,0 +1,348 @@
+11:32:49.755 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+11:32:53.081 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+11:32:53.083 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+11:32:53.091 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+11:32:53.092 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+11:32:53.098 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+11:32:53.107 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+11:32:53.108 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1675
+11:32:53.112 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+11:32:53.138 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+11:32:53.144 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+11:32:53.145 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+11:32:53.153 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+11:32:53.154 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+11:32:53.162 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+11:32:53.162 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+11:32:53.167 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+11:32:53.167 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+11:32:53.172 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+11:32:53.176 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+11:32:58.958 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+11:32:58.959 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+11:33:04.664 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: {"status":"success","data":{"name":"Johnu","salary":"71603","age":"77","id":2393},"message":"Successfully! Record has been added."}
+11:33:04.683 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+11:33:04.686 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+11:33:10.403 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+11:33:10.404 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+11:39:32.411 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+11:39:35.704 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+11:39:35.704 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+11:39:35.729 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+11:39:35.729 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+11:39:35.734 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+11:39:35.738 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+11:39:35.739 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1731
+11:39:35.743 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+11:39:35.766 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+11:39:35.770 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+11:39:35.771 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+11:39:35.777 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+11:39:35.777 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+11:39:35.794 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+11:39:35.794 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+11:39:35.798 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+11:39:35.798 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+11:39:35.803 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+11:39:35.806 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+11:39:41.496 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+11:39:41.497 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+11:39:47.282 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: {"status":"success","data":{"name":"Johno","salary":"55825","age":"32","id":803},"message":"Successfully! Record has been added."}
+11:39:47.292 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+11:39:47.293 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+11:39:52.929 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+11:39:52.931 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+12:05:44.351 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+12:05:47.720 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+12:05:47.720 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+12:05:47.742 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+12:05:47.742 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+12:05:47.747 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+12:05:47.751 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+12:05:47.752 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1699
+12:05:47.757 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+12:05:47.777 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+12:05:47.783 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+12:05:47.783 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+12:05:47.787 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+12:05:47.788 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+12:05:47.800 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+12:05:47.800 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+12:05:47.802 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+12:05:47.803 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+12:05:47.807 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+12:05:47.810 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+12:05:53.436 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+12:05:53.439 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+12:05:59.038 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: {"status":"success","data":{"name":"Johnd","salary":"31463","age":"06","id":5659},"message":"Successfully! Record has been added."}
+12:05:59.052 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+12:05:59.054 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+12:06:04.607 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+12:06:04.608 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+12:06:34.904 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+12:06:43.541 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+12:06:43.542 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>588
+12:06:43.578 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+12:06:43.578 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>text/html; charset=UTF-8
+12:06:43.604 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+12:06:43.609 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+12:06:43.610 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1421
+12:06:43.616 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+12:06:43.647 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+12:06:43.650 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+12:06:43.650 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>429
+12:06:43.655 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+12:06:43.655 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+12:06:43.659 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+12:06:43.659 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+12:06:43.662 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+12:06:43.662 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 429 Too Many Requests
+12:06:43.665 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+12:06:43.668 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+12:06:49.366 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+12:06:49.369 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+12:06:54.933 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: {"status":"success","data":{"name":"Johng","salary":"74680","age":"80","id":3168},"message":"Successfully! Record has been added."}
+12:06:54.945 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+12:06:54.946 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+12:07:00.529 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+12:07:00.531 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+12:07:07.908 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Finished TC005_Delete_Employee_Record **********
+12:08:21.440 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+12:08:29.798 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+12:08:29.798 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+12:08:29.823 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+12:08:29.824 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+12:08:29.829 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+12:08:29.834 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+12:08:29.837 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1367
+12:08:29.848 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+12:08:29.888 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+12:08:29.892 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+12:08:29.892 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+12:08:29.897 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+12:08:29.897 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+12:08:29.910 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+12:08:29.912 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+12:08:29.915 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+12:08:29.915 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+12:08:29.918 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+12:08:29.923 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+12:08:35.958 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+12:08:35.960 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+12:08:41.636 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: {"status":"success","data":{"name":"Johni","salary":"02375","age":"37","id":7413},"message":"Successfully! Record has been added."}
+12:08:41.648 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+12:08:41.650 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+12:08:47.553 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+12:08:47.556 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+12:08:54.874 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Finished TC005_Delete_Employee_Record **********
+12:11:17.521 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+12:11:25.428 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+12:11:25.429 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+12:11:25.448 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+12:11:25.448 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+12:11:25.450 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+12:11:25.451 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+12:11:25.452 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1502
+12:11:25.453 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+12:11:25.474 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+12:11:25.476 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+12:11:25.476 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+12:11:25.477 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+12:11:25.478 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+12:11:25.479 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+12:11:25.479 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+12:11:25.481 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+12:11:25.481 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+12:11:25.484 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+12:11:25.489 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+12:11:31.156 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+12:11:31.158 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+12:11:36.990 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: {"status":"success","data":{"name":"Johno","salary":"62798","age":"63","id":2898},"message":"Successfully! Record has been added."}
+12:11:36.999 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+12:11:37.001 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+12:11:42.723 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+12:11:42.725 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+12:11:50.290 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Finished TC005_Delete_Employee_Record **********
+12:12:34.381 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+12:12:42.049 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+12:12:42.049 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+12:12:42.079 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+12:12:42.079 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+12:12:42.080 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+12:12:42.082 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+12:12:42.082 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>1407
+12:12:42.085 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+12:12:42.109 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+12:12:42.111 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+12:12:42.111 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+12:12:42.113 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+12:12:42.114 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+12:12:42.115 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+12:12:42.115 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+12:12:42.120 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+12:12:42.121 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+12:12:42.125 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+12:12:42.128 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+12:12:48.201 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+12:12:48.204 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+12:12:54.384 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: {"status":"success","data":{"name":"Johni","salary":"17260","age":"59","id":4472},"message":"Successfully! Record has been added."}
+12:12:54.386 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+12:12:54.386 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+12:13:02.391 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+12:13:02.393 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+12:14:00.724 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+12:14:10.160 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+12:14:10.160 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>631
+12:14:10.186 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+12:14:10.186 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>application/json
+12:14:10.189 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+12:14:10.190 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
+12:14:10.190 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is ==>2664
+12:14:10.190 [main] WARN  com.employeeapi.testCases.TC001_Get_All_Employees - Response Time is greater than 2000
+12:14:10.193 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Respose Body **********
+12:14:10.225 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+12:14:10.227 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Code **********
+12:14:10.227 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Code is ==>200
+12:14:10.231 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Encoding**********
+12:14:10.232 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Encoding is==>gzip
+12:14:10.233 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********** Checking Server Type **********
+12:14:10.233 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Server Type is =>nginx
+12:14:10.235 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Status Line **********
+12:14:10.235 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Status Line is ==>HTTP/1.1 200 OK
+12:14:10.238 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********  Finished TC001_Get_All_Employees **********
+12:14:10.244 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********Started TC002_Get_Single_Employee_Record **********
+12:14:16.135 [main] INFO  com.employeeapi.testCases.TC002_Get_Single_Employee_Record - *********  Finished TC002_Get_Single_Employee_Record **********
+12:14:16.137 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********Started TC003_Post_Employee_Record **********
+12:14:21.901 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - Response Body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+12:14:21.908 [main] INFO  com.employeeapi.testCases.TC003_Post_Employee_Record - *********  Finished TC003_Post_Employee_Record **********
+12:14:21.910 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********Started TC004_Put_Employee_Record **********
+12:14:28.296 [main] INFO  com.employeeapi.testCases.TC004_Put_Employee_Record - *********  Finished TC004_Put_Employee_Record **********
+12:14:28.297 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Started TC005_Delete_Employee_Record **********
+12:14:35.758 [main] INFO  com.employeeapi.testCases.TC005_Delete_Employee_Record - *********Finished TC005_Delete_Employee_Record **********
+13:25:31.129 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - *********Started TC001_Get_All_Employees **********
+13:26:36.683 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Length**********
+13:26:36.683 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content Length is==>678
+13:26:36.699 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Content Type **********
+13:26:36.699 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - Content type is ==>text/html; charset=iso-8859-1
+13:26:36.715 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Cookies **********
+13:26:36.715 [main] INFO  com.employeeapi.testCases.TC001_Get_All_Employees - ***********  Checking Response Time **********
